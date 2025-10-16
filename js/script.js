@@ -18,8 +18,10 @@ function personnage(perso){
     const maisonClasse = maison(perso.house);
     const name = perso.name ;
     const img = perso.image ;
+    const id = perso.id ;
     return `
     <div class="character ${maisonClasse}">
+    <a href="details.html?id=${id}">
       <img src="${img}" alt="${name}" />
       <p>${name}</p>
     </div>

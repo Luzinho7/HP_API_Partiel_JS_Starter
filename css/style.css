@@ -160,6 +160,11 @@ footer p {
 .characters .serdaigle img {
   border: 8px solid var(--Blue, #078cb1);
 }
+.characters a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 
 /* PAGE PERSO */
 .page_perso h3 {
