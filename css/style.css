@@ -116,6 +116,7 @@ footer p {
 }
 .houses > div:hover {
   background: #fff6e6;
+  transform: scale(1.1);
 }
 .houses img {
   width: 121px;
@@ -129,13 +130,13 @@ footer p {
   padding: 30px;
 }
 .characters > div {
+  border-radius: 200px;
   padding: 30px;
 }
 .characters img {
   width: 150px;
   height: 150px;
   border-radius: 150px;
-  border: 8px solid var(--Gold, #b99049);
   background: url(<path-to-image>), lightgray -1.24px 0px/101.653% 141.566% no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
@@ -143,6 +144,21 @@ footer p {
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+}
+.characters > div:hover {
+  transform: scale(1.1);
+}
+.characters .gryffondor img {
+  border: 8px solid var(--Red, #b71713);
+}
+.characters .serpentard img{
+  border: 8px solid var(--Green, #124b10);
+}
+.characters .poufsouffle img {
+  border: 8px solid var(--Yellow, #e1b50c);
+}
+.characters .serdaigle img {
+  border: 8px solid var(--Blue, #078cb1);
 }
 
 /* PAGE PERSO */
